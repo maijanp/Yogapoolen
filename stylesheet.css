@@ -1,0 +1,93 @@
+#logo {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+main {
+  margin: auto; /*För att positionera elementet i mitten*/
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.486);
+  text-align: center;
+  padding: 15px; /*För att skapa utrymme mellan text och ram*/
+  margin-top: 50px; /*För att skapa utrymme mellan nav och main*/
+  font-size: 17px;
+  border-radius: 20px; /*För att runda hörnen*/
+}
+
+body {
+  background-image: url(./homepage-background.jpeg);
+  background-size: cover; /*för att hela bilden ska täcka bakgrunden*/
+  background-repeat: no-repeat; /*För att bilden ej ska repetera sig*/
+  font-family: Arial, Helvetica, sans-serif; /*För att använda helvetica på hela webbplatsen*/
+  overflow-x: hidden;/*för att undvika onödig horisontell scroll */
+  margin: 0; /*För att nollställa margin och undvika oönskat utrymme mellan sidans topp och nav, samt mellan sidans nedersta del samt footer*/
+}
+
+nav {
+  background-color: rgb(131, 131, 131);
+  text-align: center; /*för att centrera länkarna*/
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav a {
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/*för att markera länken som muspekaren ligger över*/
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+aside {
+  position: relative;
+  bottom: 300px;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.445);
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 20px;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  position: relative; /*För att positionera footern längst ner på sidan*/
+  bottom: 0; /* -||- */
+  width: 100%;
+  background-color: rgba(223, 223, 223, 0.301);
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+address {
+  /*För att positionera elementet på önskan plats*/
+  position: relative;
+  bottom: 350px;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.445);
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
